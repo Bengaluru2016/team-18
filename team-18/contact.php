@@ -3,10 +3,10 @@
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 // database connectivity
-$servername = "localhost";
+$servername = "ec2-54-169-165-242.ap-southeast-1.compute.amazonaws.com";
 $username = "root";
-$password = "sujata";
-$db="rangde";
+$password = "cfg";
+$db="mysql";
 
 // Create connection
 $conn =mysqli_connect($servername, $username, $password,$db);
