@@ -1,3 +1,3 @@
 # team-18
 
-## Project for Rang De application
+## Project for Rang De Organization
