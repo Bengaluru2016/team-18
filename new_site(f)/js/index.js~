@@ -121,7 +121,7 @@ $(function() {
 		
 		var $ele = $(".rad-chat-body");
 		var img = "http://3.bp.blogspot.com/-coH7JStVgw8/TmvdyNQBWhI/AAAAAAAAGQw/V63AT0PZF9o/s1600/Funny+cartoon+faces+pictures2.jpg";
-		if (value=="hi"||value=="hey"||value=="hello"||value=="Hi"||value=="hola") {
+		if (value=="hi"||value=="hey"||value=="hello"||value=="hey"||value=="hola") {
 			$("#rad-chat-txt").val('');
 			$ele.append(getTempl(img, value, 'left'));
 			setTimeout(function() {
@@ -163,78 +163,7 @@ $(function() {
 		}
 		
 	});
-	$("#rad-chat-send").on("click", function() {
-		
-		var value = $("#rad-chat-txt").val();
-		
-		var $ele = $(".rad-chat-body");
-		var img = "http://3.bp.blogspot.com/-coH7JStVgw8/TmvdyNQBWhI/AAAAAAAAGQw/V63AT0PZF9o/s1600/Funny+cartoon+faces+pictures2.jpg";
-		if (value=="how am i benifited in this process?") {
-			$("#rad-chat-txt").val('');
-			$ele.append(getTempl(img, value, 'left'));
-			setTimeout(function() {
-				img = "https://pbs.twimg.com/profile_images/535502528490655744/6N28C6iP.jpeg";
-				$ele.append(getTempl(img, "The money invested by the investors would definitely help a family which is benifitable than anything", 'right'));
-				$ele.slimScroll({
-					scrollTo: $ele[0].scrollHeight
-				});
-			}, 2000);
-
-			$ele.slimScroll({
-				scrollTo: $ele[0].scrollHeight
-			});
-
-		}
-		
-	});
-	$("#rad-chat-send").on("click", function() {
-		
-		var value = $("#rad-chat-txt").val();
-		
-		var $ele = $(".rad-chat-body");
-		var img = "http://3.bp.blogspot.com/-coH7JStVgw8/TmvdyNQBWhI/AAAAAAAAGQw/V63AT0PZF9o/s1600/Funny+cartoon+faces+pictures2.jpg";
-		if (value=="oh cool") {
-			$("#rad-chat-txt").val('');
-			$ele.append(getTempl(img, value, 'left'));
-			setTimeout(function() {
-				img = "https://pbs.twimg.com/profile_images/535502528490655744/6N28C6iP.jpeg";
-				$ele.append(getTempl(img, "Ya it is, :-)", 'right'));
-				$ele.slimScroll({
-					scrollTo: $ele[0].scrollHeight
-				});
-			}, 2000);
-
-			$ele.slimScroll({
-				scrollTo: $ele[0].scrollHeight
-			});
-
-		}
-		
-	});
-	$("#rad-chat-send").on("click", function() {
-		
-		var value = $("#rad-chat-txt").val();
-		
-		var $ele = $(".rad-chat-body");
-		var img = "http://3.bp.blogspot.com/-coH7JStVgw8/TmvdyNQBWhI/AAAAAAAAGQw/V63AT0PZF9o/s1600/Funny+cartoon+faces+pictures2.jpg";
-		if (value=="bye"||value=="Bye") {
-			$("#rad-chat-txt").val('');
-			$ele.append(getTempl(img, value, 'left'));
-			setTimeout(function() {
-				img = "https://pbs.twimg.com/profile_images/535502528490655744/6N28C6iP.jpeg";
-				$ele.append(getTempl(img, "Bye, :-)... I hope I have solved your queries.", 'right'));
-				$ele.slimScroll({
-					scrollTo: $ele[0].scrollHeight
-				});
-			}, 2000);
-
-			$ele.slimScroll({
-				scrollTo: $ele[0].scrollHeight
-			});
-
-		}
-		
-	});
+	
 	$("#rad-chat-send").on("click", function() {
 		
 		var value = $("#rad-chat-txt").val();
