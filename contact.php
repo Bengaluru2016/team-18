@@ -1,7 +1,7 @@
 <html><body>
 <?php
-ini_set('display_errors', 'On');
-error_reporting(E_ALL);
+//ini_set('display_errors', 'On');
+//error_reporting(E_ALL);
 // database connectivity
 $servername = "ec2-54-169-165-242.ap-southeast-1.compute.amazonaws.com";
 $username = "root";
@@ -9,7 +9,7 @@ $password = "cfg";
 $db="mysql";
 
 // Create connection
-$conn =mysqli_connect($servername, $username, $password,$db);
+$conn =mysql_connect($servername, $username, $password,$db);
 
 // Check connection
 if ($conn->connect_error) {
@@ -20,7 +20,7 @@ else
     //echo "Connected successfully";
 
 }
-$result=mysqli_query($conn,"select lastname,firstname,contact_no from investor");
+$result=mysql_query($conn,"select lastname,firstname,contact_no from investor");
 //echo $result;
 //$count = $result->num_rows;
 //echo $count;

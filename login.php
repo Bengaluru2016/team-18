@@ -59,7 +59,7 @@
 				
             <div style = "margin:30px">
                
-               <form action = "welcome.php" method = "get">
+               <form action = "http://ec2-54-169-165-242.ap-southeast-1.compute.amazonaws.com/dashboard.html" method = "get">
                   <label>UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
                   <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
                   <input type = "submit" value = " Submit "/><br />

@@ -50,13 +50,13 @@ $(function() {
 		}
 	});
 
-	$(document).on("click", function(e) {
+	/*$(document).on("click", function(e) {
 		e.preventDefault();
 		var $item = $(".rad-dropmenu-item");
 		if ($item.hasClass("active")) {
 			$item.removeClass("active");
 		}
-	});
+	});*/
 
 	$('.rad-chat-body').slimScroll({
 		height: '450px',

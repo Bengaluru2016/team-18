@@ -3,5 +3,5 @@
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD', 'cfg');
    define('DB_DATABASE', 'mysql');
-   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+   $db = mysql_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 ?>
